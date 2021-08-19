@@ -1,0 +1,23 @@
+<div class="timer">
+  <round-progress
+    (onRender)="roundTimerOptions.onRender"
+    [animation]="roundTimerOptions.animation"
+    [animationDelay]="roundTimerOptions.animationDelay"
+    [rounded]="roundTimerOptions.rounded"
+    [background]="roundTimerOptions.background"
+    [clockwise]="roundTimerOptions.clockwise"
+    [color]="roundTimerOptions.color"
+    [current]="roundTimerOptions.current"
+    [duration]="roundTimerOptions.duration"
+    [max]="roundTimerOptions.max"
+    [radius]="roundTimerOptions.radius"
+    [responsive]="roundTimerOptions.responsive"
+    [semicircle]="roundTimerOptions.semicircle"
+    [stroke]="roundTimerOptions.stroke"
+  ></round-progress>
+
+  <div class="timer__information">
+    <label class="timer__information-step">Pomodoro #2</label>
+    <label class="timer__information-value">18:25</label>
+  </div>
+</div>
